@@ -1,14 +1,14 @@
-#Стандарт библиотеки 
-import datetime as dt 
+# Стандарт библиотеки 
+# import datetime as dt 
 
 
-kazir=dt.datetime.today()
-print(kazir)
+# kazir=dt.datetime.today()
+# print(kazir)
 
-print(kazir.hour)
+# print(kazir.hour)
 
-print(kazir.min)
+# print(kazir.min)
 
-print(kazir.second)
-
-print(kazir.microsecond)
+# print(kazir.second)
+#time()
+#date()

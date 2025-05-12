@@ -11,11 +11,13 @@ avtor TEXT
 )
 """)
 db.commit() 
-cursor.execute("INSERT INTO jurnal VALUES('Instagramm','Insta','10000','Aydos')")
-cursor.execute("INSERT INTO jurnal VALUES('Telegramm','tg','hehehehe','Abbaz')")
-cursor.execute("INSERT INTO jurnal VALUES('1d12easdasd','asdfsdf','112123','Aasda')")
-cursor.execute("INSERT INTO jurnal VALUES('Instagrammqwdasd','ahs dhj ','10012300','Aydos')")
-cursor.execute("INSERT INTO jurnal VALUES('Insdsftagramm','Iasf23efnsta','10012312030','Aydds fsdfos')")
+# cursor.execute("INSERT INTO jurnal VALUES('Instagramm','Insta','10000','Aydos')")
+# cursor.execute("INSERT INTO jurnal VALUES('Telegramm','tg','hehehehe','Abbaz')")
+cursor.execute("DELETE FROM jurnal WHERE avtor ='Abbaz' ")
+# cursor.execute("INSERT INTO jurnal VALUES('Instagrammqwdasd','ahs dhj ','10012300','Aydos')")
+# cursor.execute("INSERT INTO jurnal VALUES('Insdsftagramm','Iasf23efnsta','10012312030','Aydds fsdfos')")
 db.commit()
+
+
 
 db.close()

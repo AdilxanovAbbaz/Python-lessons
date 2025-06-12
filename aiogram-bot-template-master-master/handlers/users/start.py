@@ -5,4 +5,4 @@ from keyboards.default.main_menu import main_menu
 
 @dp.message_handler(Command("start"))
 async def bot_start(message: types.Message):
-    await message.answer(reply_markup=main_menu)
+    await message.answer("Привет!", reply_markup=main_menu)
